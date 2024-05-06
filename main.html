@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Parking Solutions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <script src=“https://creativeparkingsolutions.com/public/home/assets/main/js/lottie-player.js”></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white  ">
+        <div class="container nav-content">
+            <a class="navbar-brand" href="#">
+                <img src="/assests/images/logo.jpeg" alt="Logo" width="160" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                
+                <ul class="navbar-nav ms-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="hidden-lg hidden-sm hidden-md   btn-myaccount show_mbl nav-item">
+                        <a class="nav-link" href="https://creativeparkingsolutions.com/motorist/login">Motorist</a>
+                    </li>
+                    <li class="hidden-lg hidden-sm hidden-md   btn-myaccount show_mbl nav-item">
+                        <a class="nav-link" href="https://creativeparkingsolutions.com/garage/login">Garage </a>
+                    </li>
+                </ul>
+        
+                    <div class="button-container d-flex justify-content-between" id="button-container">
+                        <!-- <button class="custom-button">Motorist</button> -->
+                        <a href="https://creativeparkingsolutions.com/motorist/login" class="custom-button">Motorist</a>
+                       
+                        <a href="https://creativeparkingsolutions.com/garage/login" class="custom-button">Garage Owner</a>
+                        <!-- <button class="custom-button ms-2">Garage Owner</button> -->
+                    </div>
+               
+            </div>
+           
+        </div>
+    </nav>
+
+    <!-- Content Sections -->
+    <section id="home">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-12 p-0 m-0">
+                 
+                     <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                         
+                          <div class="carousel-item active">
+                              <div class="hero-item bg-one">  
+                              <!-- <img src="/assests/images/inside car.jpeg" class="hero-img d-block w-100 img" alt="car img"> -->
+                            </div>
+                            <div class="carousel-caption">
+                                <h1>EFFICIENT WAYS TO FILL EMPTY PARKING SPOTS!</h1>
+                                <p>Our solution provides a parking management system that displays LIVE parking space availability, occupancy, statistics and so much more</p>
+                            </div>
+                          </div>
+                          
+                          <div class="carousel-item">
+                            <div class="hero-item bg-two">
+                            <!-- <img src="/assests/images/a3.jpeg" class="hero-img d-block w-100 img" alt="car"> -->
+                            </div>
+                            <div class="carousel-caption">
+                                <h1>LET US HELP YOU!</h1>
+                                <p class="mt-2">It’s a challenge trying to win the parking lottery every day. We’re here to help! Stay up-to-date with the latest news by subscribing or following us on social media! </p>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="hero-item" style="background-color: linear-gradient(90deg, rgba(180, 58, 58, 1) 0%, rgba(253, 194, 29, 1) 50%, rgba(69, 196, 252, 1) 100%) !important;">
+                            <div class="carousel-caption appStore">
+                                <div>
+                                <h1>Get INTENSE <br><span style="font-size:20px;">APP NOW!</span></h1>
+                                <p class="mt-2">Customers will receive updates through the Creative Parking Solutions app (The Creative App) which is now available for both Android and IOS.  </p>
+                                <div class="app-store d-flex justify-content-center align-content-center ">
+                                    <a class="app-link d-block " href="https://apps.apple.com/app/creative-parking-solution/id6450534158">
+                                        <img class="apple-store" src="/assests/images/apple.png" alt="apple" >
+                                    </a>
+                                    <a class="play-store d-block " href="https://play.google.com/store/apps/details?id=com.cps.parking_app&amp;pli=1">
+                                        <img class="play-store-img" src="/assests/images/play-store.png" alt="play-store" >
+                                    </a>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="hero-item bg-three">
+                            <!-- <img src="/assests/images/a1.jpeg" class="hero-img d-block w-100 img" alt="parking"> -->
+                            </div>
+                            <div class="carousel-caption">
+                                <h1>INTRODUCING THE <i>SPACE TAG</i></h1>
+                                <p>Customers will receive updates through the Creative Parking Solutions app (The Creative App) which is now available for both Android and IOS. </p>
+                            </div>
+                          </div>
+
+                          
+                         
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col text-start">
+                            <button class="carousel-control-prev d-flex justify-content-start " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                          </div>
+                          <div class="col text-end">
+                            <button class="carousel-control-next d-flex justify-content-end " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                         
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="container">
+        <div class="row ">
+            <h2 class="text-center mt-4 f-25" data-aos="zoom-in-down"><span class="f-b"> THE WORLD’S BEST GARAGE</span> <span class="blue-text f-400"> CAR PARKING</span></h2>
+            <p class="text-secondary paragraph-text " data-aos="zoom-in-down">We are Creative Parking Solutions LLC, a green company that brings you an unprecedented solution to radically change the way we park. Our unique product, the Space Tag™, is placed alongside parking spaces to allow for live status updates on parking space activity. We offer parking guidance services that help optimize utility of parking garages and assist garage owners, staff and their customers in managing car flow. Our services include real-time updates on the status of parking garages, parking space availability, occupancy and general statistics which garage managers can use to make more informed business decisions.</p>
+       
+        <div class="col-lg-6">
+            <h3 class="text-center f-25" data-aos="zoom-in-down"><span class="f-b">FOR</span> <span class="blue-text f-400">DRIVERS</span></h3>
+            <div class="video-container d-flex justify-content-center" data-aos="zoom-out-down" >
+                <iframe src="https://lottie.host/embed/a439abaa-5e5f-48cb-b195-9c40ac189f46/UNRHrA3LBs.json" background="transparent.html" speed="1" style="width: 70%; height: 200px;" class="m-auto text-center mx-2 aos-init aos-animate" loop="" autoplay="" data-aos="zoom-out-down"></iframe> </iframe>
+               
+            </div>
+              
+            <p class="text-secondary text-justify mx-2 ms-auto  f-15 pl-10" data-aos="zoom-in-down">Creative Parking Solutions also delivers parking guidance services to its users. Our parking applications provide users with real-time data on parking availability within seconds, saving you time and gas and reducing pollution. From locating your car to knowing the latest space that has just freed up, you will find that having in-depth parking space information at your fingertips is rather comforting! Not yet a user? Check out our brand-new system by registering here for free! (Don’t worry, it’s quick and easy! We promise!)</p>
+            <div class="btn">
+            <button class="login-button">Register</button>
+        </div>
+        </div>
+        
+        <div class="col-lg-6">
+            <h3 class="text-center f-25" data-aos="zoom-in-down"><span class="f-b">FOR</span> <span class="blue-text f-400">GARAGE OWNERS</span></h3>
+            <div class="video-container d-flex justify-content-center " data-aos="zoom-out-down">
+               
+                  <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Tcz0nk.json" background="transparent" speed="1" style="width: 70%; height: 200px" direction="1" mode="normal" loop autoplay></lottie-player>
+                </div>
+            <!-- <div id="paragraph">
+                <p class="text-secondary text-justify inside mx-2 ms-auto  f-15 pr-10" data-aos="zoom-in-down">
+                    The Creative Parking Solutions Management System™ is designed to remotely monitor, assess and coordinate parking activity within a particular parking garage. Our system provides a one-of-a-kind parking experience by updating you on the live number of spaces left unfilled as well as the number of vehicles present. Having real time knowledge of available parking spaces within your establishment has never been easier! Our system also eradicates the need to keep manual records as it automatically ... 
+                <span id="read-more-less" class="hidden">Read More</span></p>
+            </div> -->
+            <div id="paragraph">
+                
+                <p class="text-secondary text-justify inside mx-2 ms-auto  f-15 pr-10" data-aos="zoom-in-down">
+                    The Creative Parking Solutions Management System™ is designed to remotely monitor, assess and coordinate parking activity within a particular parking garage. Our system provides a one-of-a-kind parking experience by updating you on the live number of spaces left unfilled as well as the number of vehicles present. Having real time knowledge of available parking spaces within your establishment has never been easier! Our system also eradicates the need to keep manual records as it automatically ...
+                </p>
+            
+            </div>
+
+            <div class="btn">
+                <button class="login-button">Login</button>
+
+        </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+              <video width="100%" height="240" controls="" autoplay="" muted="" loop="" src="https://creativeparkingsolutions.com/public/assets/main/videos/(Toppick_one)_space.mp4"></video>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <video width="100%" height="240" controls="" autoplay="" muted="" loop="" src="https://creativeparkingsolutions.com/public/assets/main/videos/Explainer_video_2.mp4"></video>
+              
+              </iframe>
+              
+        </div>
+    </div>
+</div>
+    </section>
+    <section id="packages" class="bg-lighter pb-60">
+     <div class="container packages-container">
+        <div class="row ">
+            <div class="section-title">
+                <h2><span class="f-b">FEATURED </span><span class="blue-text f-400">SERVICES</span></h2>
+            </div>
+            <div class="col-lg-3 col-md-12 block " data-aos="flip-left">
+                <div class="block-1" >
+                <div class="image position-relative">
+                    <img src="/assests/images/bg1.jpeg" width="100%" height="180px" alt="keys">
+                    <h4><span class="price f-b text-white"><i>$0.99/Day</i></span></h4>
+                </div>
+                <div class="content p-25">
+                <div class="package-title">
+                    <h4 class="line-bottom">UNLOCK COMPLETE ACCESS AND ENJOY ALL FEATURES FOR A FULL 24 HOURS!</h4>
+                    <div class="solid-line"></div>
+                </div>
+                <div class="featured-btn">
+                    <div>
+                    <button class="featured-btn-1" data-bs-toggle="modal" data-bs-target="#viewDetailModal">VIEW DETAILS</button>
+
+</div>
+                    <button class="featured-btn-2" data-bs-toggle="modal" data-bs-target="#viewBuyModal">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-12 block " data-aos="flip-left">
+        <div class="block-2">
+        <div class="image position-relative">
+            <img src="/assests/images/bg2.png" width="100%" height="180px" alt="people">
+            <h4><span class="price f-b text-white"><i>$9.99/Day</i></span></h4>
+        </div>
+        <div class="content p-25">
+        <div class="package-title">
+            <h4 class="line-bottom">EXPERIENCE UNLIMITED ACCESS AND ENJOY ALL FEATURES FOR AN ENTIRE MONTH, MAXIMIZING YOUR BENEFITS TO THE FULLEST!</h4>
+            <div class="solid-line"></div>
+        </div>
+        <div class="featured-btn">
+            <button class="featured-btn-1" data-bs-toggle="modal" data-bs-target="#viewDetailModal">VIEW DETAILS</button>
+            
+            <button class="featured-btn-2" data-bs-toggle="modal" data-bs-target="#viewBuyModal">BUY NOW</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-12 block" data-aos="flip-left">
+    <div class="block-3">
+    <div class="image position-relative">
+        <img src="/assests/images/bg3.png" width="100%" height="180px" alt="party">
+        <h4><span class="price f-b text-white"><i>$19.99/Day</i></span></h4>
+    </div>
+    <div class="content p-25">
+    <div class="package-title">
+        <h4 class="line-bottom">ENJOY FULL ACCESS AND FEATURES FOR YOURSELF AND UP TO FOUR ADDITIONAL INDIVIDUALS OF YOUR CHOOSING.</h4>
+        <div class="solid-line"></div>
+    </div>
+    <div class="featured-btn">
+        <button class="featured-btn-1" data-bs-toggle="modal" data-bs-target="#viewDetailModal">VIEW DETAILS</button>
+        
+        <button class="featured-btn-2" data-bs-toggle="modal" data-bs-target="#viewBuyModal">BUY NOW</button>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-12 block" data-aos="flip-left">
+    <div class="block-4">
+    <div class="image position-relative">
+        <img src="/assests/images/bg4.png" width="100%" height="180px" alt="group">
+        <h4><span class="price f-b text-white"><i>$39.99/Day</i></span></h4>
+    </div>
+    <div class="content p-25">
+    <div class="package-title">
+        <h4 class="line-bottom">MAXIMIZE YOUR BENEFITS AND MAKE PARKING HASSLE-FREE WITH OUR COMPREHENSIVE ANNUAL PLAN!</h4>
+        <div class="solid-line"></div>
+    </div>
+    <div class="featured-btn">
+        <button class="featured-btn-1" data-bs-toggle="modal" data-bs-target="#viewDetailModal">VIEW DETAILS</button>
+        
+        <button class="featured-btn-2" data-bs-toggle="modal" data-bs-target="#viewBuyModal">BUY NOW</button>
+    </div>
+</div>
+</div>
+</div>
+        </div>
+
+     </div>
+    </section>
+    <section id="contact" class="divider">
+       <div class="container ">
+        <h2 class="custom-p"><span class="f-b">CONTACT </span><span class="blue-text f-400"> US</span></h2>
+        <div class="row justify-content-center " data-aos="fade-down">
+            <!-- <div class="col-lg-4 col-md-4 col-12 d-block "> -->
+
+            <div class="col-lg-3 col-md-3 text-center ">
+                <dotlottie-player src="https://assets7.lottiefiles.com/packages/lf20_p1slpp8w.json" background="transparent" speed="1" style="width: 100%; height: 80px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+                <div class="text-secondary topic">Address</div>
+                <p class="grey-text f14">55 Merritt Blvd, Trumbull, CT 06611</p>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 text-center">
+                <div class="d-flex  justify-content-center ">
+                <dotlottie-player src="https://assets3.lottiefiles.com/packages/lf20_wmsbdykq.json" background="transparent" speed="1" style="width: 100px; height: 80px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+            </div>
+                <div class="text-secondary topic">Call Us</div>
+                <p class="grey-text f14">Phone</p>
+                <p class="text-secondary effect f14">(203) 672-5804</p>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-3 text-center">
+                <dotlottie-player src="https://assets10.lottiefiles.com/packages/lf20_kdx6cani.json" background="transparent" speed="1" style="width: 100%; height: 80px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+                <div class="text-secondary topic">Email</div>
+                <p class="grey-text effect f14">info@creativeparkingsolutions.com</p>
+            </div>
+        <!-- </div> -->
+        </div>
+       </div>
+    </section>
+
+    <section id="footer" class="footer divider-1 overlay">
+        <div class="container end">
+            <div class="row border-bottom">
+                <div class="col-lg-6">
+                    <div class="card text-white testing">
+<div class="overlay-div"></div>
+<div class="card-image-overlay">
+    <h5 class="card-title f-b text-center ">CREATIVE PARKING SOLUTION</h5>
+    <div class="d-flex  justify-content-center ">
+    <img src="/assests/images/magnet.png" alt="magnet" width="100px" height="80px">
+    </div>
+    <p class="text-center ">Our solution provides a parking management system that displays LIVE parking space availability, occupancy, statistics and so much more!</p>
+    
+    <h5 class="f-b text-center mt-4 ">CONNECT WITH US</h5>
+
+    <div class="row">
+        <ul class="styled-icons d-flex justify-content-center mt-3">
+            <li><a href="https://www.facebook.com/profile.php?id=61552733814561&amp;mibextid=ZbWKwL"><i class="bx bxl-facebook"></i></a></li>
+            <li><a href="https://twitter.com/Creative_PS_"><i class="bx bxl-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC_GhooY18hIk_Aeb1ulp6cw"><i class="bx bxl-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/cpsolutions1?igsh=MW8wdnhmejIyN3dheA=="><i class="bx bxl-instagram"></i></a></li>
+            <li><a href="https://www.pinterest.com/creativeparkingsolutions"><i class="bx bxl-pinterest-alt"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/51600140/admin/"><i class="bx bxl-linkedin"></i></a></li>
+
+    
+        </ul>
+    </div>
+
+</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget dark">
+                        <h4 class="widget-title text-white">
+                            Quick Links
+                        </h4>
+                        <ul class="list list-border">
+                            <li><a href="#contact">Contact us</a></li>
+                            <li><a href="#home">Login</a></li>
+                            <li><a href="#home">sign up</a></li>
+                            <li><a href="#home">Home</a></li>
+                        </ul>
+
+                    </div>
+      
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget dark">
+                        <h4 class="widget-title text-white f-b">
+                           CONTACT DEATILS
+                        </h4>
+                        <ul class="list-inline mt-5">
+                            <li class="m-0">
+                                <a class="text-white" href="#">
+                                    <img src="/assests/images/icons8-call-24.png" alt="Phone Icon" class="icon-img m-2"> 
+                                    (203) 672-5804
+                                </a>
+                            </li>
+                            <li class="m-0">
+                                <a class="text-white"  href="mailto:info@creativeparkingsolutions.com">
+                                    <img src="/assests/images/icons8-gmail-is-a-free-email-service-developed-by-google-24.png" alt="Email Icon" class="icon-img m-2"> 
+                                    info@creativeparkingsolutions.com
+                                </a>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+                
+            </div>
+         
+        </div>
+   
+    </section> 
+
+    <section>
+        <div class="footer-bottom bg-black-333" style="  background: hsl(231, 37%, 11%)  !important;">
+            <div class="container pt-20 pb-20">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="font-11 grey-text-2 mb-2 mt-2 text-center" style="margin-top: 8px;">Copyright ©2023 Creativeparkingsolutions. All Rights Reserved || Developed by <a href="https://happycoddingit.com/">HAPPY CODDING IT</a></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="viewDetailModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="viewDetailModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="content-wrapper mt-4">
+        <h3 class="f-24">FEATURE DETAIL</h3>
+        <p class="f-400 text-justify mt-3">Enhance your parking experience with our full-day access package, granting you real-time access to all available parking spaces within our system. Perfect for those on-the-go moments when you occasionally need to park on demand!</p>
+    </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-enter btn-success" data-bs-dismiss="modal">Ok</button>
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="viewBuyModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="viewDetailModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="content-wrapper text-center ">
+            <div class="swal2-icon swal2-warning swal2-icon-show">
+                <div class="swal2-icon-content d-flex justify-content-center ">!</div>
+            </div>
+
+        <h2 class="dark-grey-text mt-4 f-500">WARNING!</h2>
+        <p class="f-400 text-center  mt-3 custom-padding">Please Login to buy this package</p>
+    </div>
+          <div class="modal-footer button-section">
+            <a href="https://creativeparkingsolutions.com/motorist/login" class="btn btn-yes">Yes</a>
+            <!-- <button type="button" class="btn-yes" data-bs-dismiss="modal">Yes</button> -->
+            <button type="button" class="btn-no" data-bs-dismiss="modal">No</button>
+          </div>
+      </div>
+    </div>
+    </div>
+    <script src="/js/main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+gsXDmf1T1Z4q5wwA7EBdkvCkkRpFtZKY0T5N0P" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+<!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+gbg4Gtc5iqLcsVmx56E+1woK/Sf6A6qwGv/dww" crossorigin="anonymous"></script>    
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
